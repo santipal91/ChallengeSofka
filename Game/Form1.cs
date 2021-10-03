@@ -20,6 +20,7 @@ namespace Game
             InitializeComponent();
             LoadJson();
             startGame();
+            scoreValue();
         }
 
 
@@ -41,27 +42,38 @@ namespace Game
                 Question question = getQuestionForLevel(currentLevel);
                 displayQuestionToUser(question);
                 updateProgressBar(currentLevel);
+               
             }
             
         }
 
         Question getQuestionForLevel(int level)
         {
-            
-            int randomNumber = 0; /*buscar funcion que devuelva un numero random entre dos limites*/
+            Random random = new Random();
+            int randomNumber = random.Next(0, 5);
             return data.levels[level].questions[randomNumber];
         
         }
 
         void displayQuestionToUser(Question question)
         {
-            label2.Text = question.description;
-            button1.Text = question.options[0].description;
+            Quest1.Text = question.description;
+            Ans1.Text = question.options[0].description;
+            Ans2.Text = question.options[1].description;
+            Ans3.Text = question.options[2].description;
+            Ans4.Text = question.options[3].description;
+
+        }
+
+        void scoreValue()
+        {
+            int scoreValue = 0;
+            scoreValue1.Text = scoreValue.ToString();
         }
 
         void updateProgressBar(int progress)
         {
-            progressBar1.Value = progress;
+            progressBar1.Value = progress+1;
         }
 
 
@@ -81,6 +93,11 @@ namespace Game
         }
 
         private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
         {
 
         }
