@@ -1,11 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
-using System.Text;
 using System.Windows.Forms;
 
 namespace Game
@@ -16,6 +11,8 @@ namespace Game
         public ScoreView()
         {
             InitializeComponent();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Sofka --- Challenge";
             LoadScoreJson();
             printScores();
         }
@@ -40,15 +37,11 @@ namespace Game
                 labelList.Text = labelList.Text + playerScoreText;
             }
         }
-
-        private void labelList_Click(object sender, EventArgs e)
+        private void btnReturn_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void labelTitle_Click(object sender, EventArgs e)
-        {
-
+            this.Hide();
+            Form gamePlay = new Welcome();
+            gamePlay.Show();
         }
     }
 }

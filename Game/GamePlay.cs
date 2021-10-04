@@ -17,11 +17,13 @@ namespace Game
         public GamePlay(string playerName)
         {
             InitializeComponent();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Sofka --- Challenge";
             LoadJson();
             LoadScoreJson();
             startGame();
             player = playerName;
-            
+
         }
 
 
@@ -33,10 +35,9 @@ namespace Game
                 string json = r.ReadToEnd();
                 data = JsonConvert.DeserializeObject<Data>(json);
             }
-
         }
 
-        void startGame() 
+        void startGame()
         {
             scoreValue = 0;
             currentLevel = 0;
@@ -45,7 +46,7 @@ namespace Game
             nextQuestion();
 
         }
-        
+
         void nextQuestion()
         {
             if (currentLevel < levelsCount)
@@ -61,9 +62,9 @@ namespace Game
 
         void checkAnswer(int answer)
         {
-            if(currentQuestion.options[answer].isCorrect)
+            if (currentQuestion.options[answer].isCorrect)
             {
-                scoreValue = scoreValue + ((currentLevel+1) * 100);
+                scoreValue = scoreValue + ((currentLevel + 1) * 100);
                 currentLevel++;
                 nextQuestion();
                 updateProgress();
@@ -89,7 +90,7 @@ namespace Game
             Random random = new Random();
             int randomNumber = random.Next(0, 5);
             return data.levels[level].questions[randomNumber];
-        
+
         }
 
         void savePlayerScore()
@@ -105,7 +106,7 @@ namespace Game
             using (JsonWriter writer = new JsonTextWriter(sw))
             {
                 serializer.Serialize(writer, scoreData);
-               
+
             }
         }
 
@@ -125,7 +126,6 @@ namespace Game
                 scoreValue1.Text = scoreValue.ToString();
                 progressBar1.Value = currentLevel;
             }
-            
         }
 
         void LoadScoreJson()
@@ -161,16 +161,6 @@ namespace Game
             this.Hide();
             Form scoreView = new ScoreView();
             scoreView.Show();
-        }
-
-        private void labelPlayer_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void SCORE_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

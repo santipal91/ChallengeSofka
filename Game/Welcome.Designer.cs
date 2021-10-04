@@ -34,14 +34,15 @@ namespace Game
             this.Bienvenido1 = new System.Windows.Forms.Label();
             this.btn_score = new System.Windows.Forms.Button();
             this.textBoxPlayerName = new System.Windows.Forms.TextBox();
+            this.lblGamePlayer = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Jugar1
             // 
             this.Jugar1.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Jugar1.Location = new System.Drawing.Point(451, 403);
+            this.Jugar1.Location = new System.Drawing.Point(773, 335);
             this.Jugar1.Name = "Jugar1";
-            this.Jugar1.Size = new System.Drawing.Size(247, 66);
+            this.Jugar1.Size = new System.Drawing.Size(255, 66);
             this.Jugar1.TabIndex = 0;
             this.Jugar1.Text = "Jugar!";
             this.Jugar1.UseVisualStyleBackColor = true;
@@ -50,9 +51,9 @@ namespace Game
             // Instrucciones1
             // 
             this.Instrucciones1.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Instrucciones1.Location = new System.Drawing.Point(773, 530);
+            this.Instrucciones1.Location = new System.Drawing.Point(773, 483);
             this.Instrucciones1.Name = "Instrucciones1";
-            this.Instrucciones1.Size = new System.Drawing.Size(247, 66);
+            this.Instrucciones1.Size = new System.Drawing.Size(255, 66);
             this.Instrucciones1.TabIndex = 1;
             this.Instrucciones1.Text = "Instrucciones";
             this.Instrucciones1.UseVisualStyleBackColor = true;
@@ -62,19 +63,18 @@ namespace Game
             // 
             this.Bienvenido1.AutoSize = true;
             this.Bienvenido1.Font = new System.Drawing.Font("Showcard Gothic", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Bienvenido1.Location = new System.Drawing.Point(228, 125);
+            this.Bienvenido1.Location = new System.Drawing.Point(228, 98);
             this.Bienvenido1.Name = "Bienvenido1";
             this.Bienvenido1.Size = new System.Drawing.Size(633, 98);
             this.Bienvenido1.TabIndex = 2;
             this.Bienvenido1.Text = "Bienvenido !!!";
-            this.Bienvenido1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btn_score
             // 
             this.btn_score.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_score.Location = new System.Drawing.Point(155, 530);
+            this.btn_score.Location = new System.Drawing.Point(228, 483);
             this.btn_score.Name = "btn_score";
-            this.btn_score.Size = new System.Drawing.Size(180, 66);
+            this.btn_score.Size = new System.Drawing.Size(255, 66);
             this.btn_score.TabIndex = 3;
             this.btn_score.Text = "Puntajes";
             this.btn_score.UseVisualStyleBackColor = true;
@@ -82,16 +82,27 @@ namespace Game
             // 
             // textBoxPlayerName
             // 
-            this.textBoxPlayerName.Location = new System.Drawing.Point(416, 358);
+            this.textBoxPlayerName.Location = new System.Drawing.Point(228, 358);
             this.textBoxPlayerName.Name = "textBoxPlayerName";
-            this.textBoxPlayerName.Size = new System.Drawing.Size(316, 27);
+            this.textBoxPlayerName.Size = new System.Drawing.Size(504, 27);
             this.textBoxPlayerName.TabIndex = 4;
+            // 
+            // lblGamePlayer
+            // 
+            this.lblGamePlayer.AutoSize = true;
+            this.lblGamePlayer.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblGamePlayer.Location = new System.Drawing.Point(228, 321);
+            this.lblGamePlayer.Name = "lblGamePlayer";
+            this.lblGamePlayer.Size = new System.Drawing.Size(312, 22);
+            this.lblGamePlayer.TabIndex = 5;
+            this.lblGamePlayer.Text = "Ingrese su nombre y presione jugar.....";
             // 
             // Welcome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1214, 699);
+            this.Controls.Add(this.lblGamePlayer);
             this.Controls.Add(this.textBoxPlayerName);
             this.Controls.Add(this.btn_score);
             this.Controls.Add(this.Bienvenido1);
@@ -111,5 +122,6 @@ namespace Game
         private System.Windows.Forms.Label Bienvenido1;
         private System.Windows.Forms.Button btn_score;
         private System.Windows.Forms.TextBox textBoxPlayerName;
+        private System.Windows.Forms.Label lblGamePlayer;
     }
 }

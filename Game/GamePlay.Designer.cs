@@ -38,12 +38,12 @@ namespace Game
             this.scoreValue1 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.labelPlayer = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Ans1
             // 
-            this.Ans1.Location = new System.Drawing.Point(22, 261);
+            this.Ans1.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Ans1.Location = new System.Drawing.Point(108, 409);
             this.Ans1.Name = "Ans1";
             this.Ans1.Size = new System.Drawing.Size(310, 53);
             this.Ans1.TabIndex = 0;
@@ -53,7 +53,8 @@ namespace Game
             // 
             // Ans2
             // 
-            this.Ans2.Location = new System.Drawing.Point(393, 261);
+            this.Ans2.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Ans2.Location = new System.Drawing.Point(518, 409);
             this.Ans2.Name = "Ans2";
             this.Ans2.Size = new System.Drawing.Size(310, 53);
             this.Ans2.TabIndex = 1;
@@ -63,7 +64,8 @@ namespace Game
             // 
             // Ans3
             // 
-            this.Ans3.Location = new System.Drawing.Point(22, 344);
+            this.Ans3.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Ans3.Location = new System.Drawing.Point(108, 547);
             this.Ans3.Name = "Ans3";
             this.Ans3.Size = new System.Drawing.Size(310, 53);
             this.Ans3.TabIndex = 2;
@@ -73,7 +75,8 @@ namespace Game
             // 
             // Ans4
             // 
-            this.Ans4.Location = new System.Drawing.Point(393, 344);
+            this.Ans4.Font = new System.Drawing.Font("MV Boli", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Ans4.Location = new System.Drawing.Point(518, 547);
             this.Ans4.Name = "Ans4";
             this.Ans4.Size = new System.Drawing.Size(310, 53);
             this.Ans4.TabIndex = 3;
@@ -84,19 +87,18 @@ namespace Game
             // SCORE
             // 
             this.SCORE.AutoSize = true;
-            this.SCORE.Font = new System.Drawing.Font("Showcard Gothic", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.SCORE.Location = new System.Drawing.Point(782, 9);
+            this.SCORE.Font = new System.Drawing.Font("Showcard Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SCORE.Location = new System.Drawing.Point(944, 51);
             this.SCORE.Name = "SCORE";
-            this.SCORE.Size = new System.Drawing.Size(168, 59);
+            this.SCORE.Size = new System.Drawing.Size(193, 50);
             this.SCORE.TabIndex = 4;
-            this.SCORE.Text = "SCORE";
-            this.SCORE.Click += new System.EventHandler(this.SCORE_Click);
+            this.SCORE.Text = "Puntaje";
             // 
             // Quest1
             // 
             this.Quest1.AutoSize = true;
             this.Quest1.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Quest1.Location = new System.Drawing.Point(40, 86);
+            this.Quest1.Location = new System.Drawing.Point(108, 159);
             this.Quest1.MaximumSize = new System.Drawing.Size(700, 0);
             this.Quest1.Name = "Quest1";
             this.Quest1.Size = new System.Drawing.Size(700, 40);
@@ -107,7 +109,7 @@ namespace Game
             // 
             this.scoreValue1.AutoSize = true;
             this.scoreValue1.Font = new System.Drawing.Font("Showcard Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.scoreValue1.Location = new System.Drawing.Point(798, 83);
+            this.scoreValue1.Location = new System.Drawing.Point(979, 143);
             this.scoreValue1.Name = "scoreValue1";
             this.scoreValue1.Size = new System.Drawing.Size(128, 42);
             this.scoreValue1.TabIndex = 6;
@@ -116,7 +118,7 @@ namespace Game
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("MV Boli", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(798, 261);
+            this.button5.Location = new System.Drawing.Point(966, 409);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(152, 43);
             this.button5.TabIndex = 7;
@@ -127,29 +129,18 @@ namespace Game
             // progressBar1
             // 
             this.progressBar1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.progressBar1.Location = new System.Drawing.Point(798, 344);
+            this.progressBar1.Location = new System.Drawing.Point(966, 547);
             this.progressBar1.Maximum = 5;
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(152, 29);
             this.progressBar1.Step = 4;
             this.progressBar1.TabIndex = 8;
             // 
-            // labelPlayer
-            // 
-            this.labelPlayer.AutoSize = true;
-            this.labelPlayer.Location = new System.Drawing.Point(843, 421);
-            this.labelPlayer.Name = "labelPlayer";
-            this.labelPlayer.Size = new System.Drawing.Size(50, 20);
-            this.labelPlayer.TabIndex = 9;
-            this.labelPlayer.Text = "label1";
-            this.labelPlayer.Click += new System.EventHandler(this.labelPlayer_Click);
-            // 
             // GamePlay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1001, 450);
-            this.Controls.Add(this.labelPlayer);
+            this.ClientSize = new System.Drawing.Size(1214, 699);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.scoreValue1);
@@ -159,7 +150,7 @@ namespace Game
             this.Controls.Add(this.Ans3);
             this.Controls.Add(this.Ans2);
             this.Controls.Add(this.Ans1);
-            this.MaximumSize = new System.Drawing.Size(1019, 497);
+            this.MaximumSize = new System.Drawing.Size(1232, 746);
             this.Name = "GamePlay";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -178,7 +169,6 @@ namespace Game
         private System.Windows.Forms.Label scoreValue1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.ProgressBar progressBar1;
-        public System.Windows.Forms.Label labelPlayer;
     }
 }
 

@@ -31,18 +31,18 @@ namespace Game
         {
             this.labelTitle = new System.Windows.Forms.Label();
             this.labelList = new System.Windows.Forms.Label();
+            this.btnReturn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelTitle
             // 
             this.labelTitle.AutoSize = true;
             this.labelTitle.Font = new System.Drawing.Font("Showcard Gothic", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelTitle.Location = new System.Drawing.Point(456, 29);
+            this.labelTitle.Location = new System.Drawing.Point(541, 32);
             this.labelTitle.Name = "labelTitle";
-            this.labelTitle.Size = new System.Drawing.Size(133, 46);
+            this.labelTitle.Size = new System.Drawing.Size(178, 46);
             this.labelTitle.TabIndex = 0;
-            this.labelTitle.Text = "SCORE";
-            this.labelTitle.Click += new System.EventHandler(this.labelTitle_Click);
+            this.labelTitle.Text = "Puntaje";
             // 
             // labelList
             // 
@@ -53,15 +53,27 @@ namespace Game
             this.labelList.Name = "labelList";
             this.labelList.Size = new System.Drawing.Size(0, 54);
             this.labelList.TabIndex = 1;
-            this.labelList.Click += new System.EventHandler(this.labelList_Click);
+            // 
+            // btnReturn
+            // 
+            this.btnReturn.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnReturn.Location = new System.Drawing.Point(1083, 643);
+            this.btnReturn.Name = "btnReturn";
+            this.btnReturn.Size = new System.Drawing.Size(119, 44);
+            this.btnReturn.TabIndex = 2;
+            this.btnReturn.Text = "Regresar";
+            this.btnReturn.UseVisualStyleBackColor = true;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
             // 
             // ScoreView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1068, 550);
+            this.ClientSize = new System.Drawing.Size(1214, 699);
+            this.Controls.Add(this.btnReturn);
             this.Controls.Add(this.labelList);
             this.Controls.Add(this.labelTitle);
+            this.MaximumSize = new System.Drawing.Size(1232, 746);
             this.Name = "ScoreView";
             this.Text = "Score";
             this.ResumeLayout(false);
@@ -73,5 +85,6 @@ namespace Game
 
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.Label labelList;
+        private System.Windows.Forms.Button btnReturn;
     }
 }

@@ -41,11 +41,10 @@ namespace Game
             this.pictureBox1.InitialImage = null;
             this.pictureBox1.Location = new System.Drawing.Point(1, -3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1074, 494);
+            this.pictureBox1.Size = new System.Drawing.Size(1213, 590);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
             // timer1
             // 
@@ -56,8 +55,9 @@ namespace Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1079, 487);
+            this.ClientSize = new System.Drawing.Size(1214, 584);
             this.Controls.Add(this.pictureBox1);
+            this.MaximumSize = new System.Drawing.Size(1232, 631);
             this.Name = "Logo";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
