@@ -52,8 +52,6 @@ namespace Game
             {
                 currentQuestion = getQuestionForLevel(currentLevel);
                 displayQuestionToUser(currentQuestion);
-
-                
             }
             else
             {
