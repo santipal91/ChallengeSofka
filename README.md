@@ -1,4 +1,4 @@
-# Challenge Sofka
+# Challenge Sofka :alien: :flying_saucer:
 
 ## Introduction
 
@@ -28,6 +28,6 @@ Pantalla Jugar
 Consumirá un json con 5 niveles, cada nivel con 5 preguntas y solo será seleccionada una mediante un random, ademas tiene un progress bar que mostrará el nivel en el que se encuentra, un puntaje acumulado o la opcion para retirarse sin perder el acumulado
 
 
-## Installation
+## Installation :mechanic:
 
 > Para ejecutar de manera correcta este programa se tienen dos opciones, descomprimir el repositorio completo desde GitHub y mediante Visual Studio ejecutarlos; También se puede descargar los archivos que están en la carpeta ChallengeSofka\Game\bin\Debug\netcoreapp3.1 y ejecutar el Game.exe
