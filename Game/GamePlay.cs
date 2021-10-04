@@ -57,6 +57,9 @@ namespace Game
             else
             {
                 savePlayerScore();
+                this.Hide();
+                Form scoreView = new ScoreView();
+                scoreView.Show();
             }
         }
 
