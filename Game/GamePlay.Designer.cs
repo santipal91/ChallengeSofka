@@ -1,7 +1,7 @@
 ﻿
 namespace Game
 {
-    partial class Form1
+    partial class GamePlay
     {
         /// <summary>
         ///  Required designer variable.
@@ -38,6 +38,7 @@ namespace Game
             this.scoreValue1 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.labelPlayer = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Ans1
@@ -48,7 +49,7 @@ namespace Game
             this.Ans1.TabIndex = 0;
             this.Ans1.Text = "2";
             this.Ans1.UseVisualStyleBackColor = true;
-            this.Ans1.Click += new System.EventHandler(this.button1_Click);
+            this.Ans1.Click += new System.EventHandler(this.Ans1_Click);
             // 
             // Ans2
             // 
@@ -58,6 +59,7 @@ namespace Game
             this.Ans2.TabIndex = 1;
             this.Ans2.Text = "3";
             this.Ans2.UseVisualStyleBackColor = true;
+            this.Ans2.Click += new System.EventHandler(this.Ans2_Click);
             // 
             // Ans3
             // 
@@ -67,6 +69,7 @@ namespace Game
             this.Ans3.TabIndex = 2;
             this.Ans3.Text = "12";
             this.Ans3.UseVisualStyleBackColor = true;
+            this.Ans3.Click += new System.EventHandler(this.Ans3_Click);
             // 
             // Ans4
             // 
@@ -76,7 +79,7 @@ namespace Game
             this.Ans4.TabIndex = 3;
             this.Ans4.Text = "6";
             this.Ans4.UseVisualStyleBackColor = true;
-            this.Ans4.Click += new System.EventHandler(this.button4_Click);
+            this.Ans4.Click += new System.EventHandler(this.Ans4_Click);
             // 
             // SCORE
             // 
@@ -87,6 +90,7 @@ namespace Game
             this.SCORE.Size = new System.Drawing.Size(168, 59);
             this.SCORE.TabIndex = 4;
             this.SCORE.Text = "SCORE";
+            this.SCORE.Click += new System.EventHandler(this.SCORE_Click);
             // 
             // Quest1
             // 
@@ -129,13 +133,23 @@ namespace Game
             this.progressBar1.Size = new System.Drawing.Size(152, 29);
             this.progressBar1.Step = 4;
             this.progressBar1.TabIndex = 8;
-            this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
             // 
-            // Form1
+            // labelPlayer
+            // 
+            this.labelPlayer.AutoSize = true;
+            this.labelPlayer.Location = new System.Drawing.Point(843, 421);
+            this.labelPlayer.Name = "labelPlayer";
+            this.labelPlayer.Size = new System.Drawing.Size(50, 20);
+            this.labelPlayer.TabIndex = 9;
+            this.labelPlayer.Text = "label1";
+            this.labelPlayer.Click += new System.EventHandler(this.labelPlayer_Click);
+            // 
+            // GamePlay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1001, 450);
+            this.Controls.Add(this.labelPlayer);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.scoreValue1);
@@ -146,7 +160,7 @@ namespace Game
             this.Controls.Add(this.Ans2);
             this.Controls.Add(this.Ans1);
             this.MaximumSize = new System.Drawing.Size(1019, 497);
-            this.Name = "Form1";
+            this.Name = "GamePlay";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -164,6 +178,7 @@ namespace Game
         private System.Windows.Forms.Label scoreValue1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.ProgressBar progressBar1;
+        public System.Windows.Forms.Label labelPlayer;
     }
 }
 

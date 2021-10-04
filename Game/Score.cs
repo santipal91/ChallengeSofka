@@ -4,8 +4,9 @@ using System.Text;
 
 namespace Game
 {
-    class Data
+    class Score
     {
-       public List<Level> levels;
+        public string playerName;
+        public int scoreValue;
     }
 }
