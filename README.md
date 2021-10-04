@@ -41,4 +41,4 @@ Se muestra una lista de instrucciones sobre el juego
 
 ## Installation :mechanic:
 
-> Para ejecutar de manera correcta este programa se tienen dos opciones, descomprimir el repositorio completo desde GitHub y mediante Visual Studio ejecutarlos; También se puede descargar los archivos que están en la carpeta ChallengeSofka\Game\bin\Debug\netcoreapp3.1 y ejecutar el Game.exe
+> Para ejecutar de manera correcta este programa se tienen dos opciones, clonar el repositorio completo desde GitHub y mediante Visual Studio ejecutarlos; También se puede descargar los archivos que están en la carpeta ChallengeSofka\Game\bin\Debug\netcoreapp3.1 y ejecutar el Game.exe
