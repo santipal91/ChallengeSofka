@@ -8,6 +8,13 @@ Lenguaje c#
 preguntas similares del mismo nivel, por cada ronda se puede obtener un premio a conseguir,
 las rondas del juego son nivel que van aumentando en la medida que el jugador gana premios.
 
+El primer nivel tiene un valor de 100 pts,
+el segundo tiene un valor de 200pts,
+tercero un valor de 300pts,
+cuarto un valor de 400pts
+y el quinto un valor de 500pts
+
+
 ## Code Samples
 
 ****************
@@ -31,7 +38,8 @@ Consume un json y nos muestra el historio de los puntajes, empezando por el la u
 ********************
 Pantalla Jugar
 Consumirá un json con 5 niveles, cada nivel con 5 preguntas y solo será seleccionada una mediante un random, ademas tiene un progress bar que mostrará el nivel en el que se encuentra, un puntaje acumulado o la opcion para retirarse sin perder el acumulado
-![pregunta](https://user-images.githubusercontent.com/66145871/135860460-37fd8562-8cd0-4098-996a-8c3f582b94c3.png)
+![pregunta](https://user-images.githubusercontent.com/66145871/135868418-36d1aef5-0ea8-46ea-b57d-3ac4f1121089.png)
+
 
 ********************
 Pantalla Instrucciones
