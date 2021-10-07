@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "b4Pay6rUwEkT0ELQUwpRZXQRwLW/rVGDDU+tQ8ta2+6bAQMm2ymNljmYJa2RDrdVPDVD5Rh27WOv8C7IRm00yQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\santi\\sofka\\ChallengeSofka\\Game\\Game.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\santi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

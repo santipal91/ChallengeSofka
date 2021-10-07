@@ -1,0 +1,554 @@
+{
+  "levels": [
+    {
+      "questions": [
+        {
+          "description": "Cuantos pistones tiene un motor de 4 cilindros",
+          "options": [
+            {
+              "description": "2",
+              "isCorrect": false
+            },
+            {
+              "description": "4",
+              "isCorrect": true
+            },
+            {
+              "description": "8",
+              "isCorrect": false
+            },
+            {
+              "description": "16",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "description": "Cuantas llantas tiene un sedan",
+          "options": [
+            {
+              "description": "2",
+              "isCorrect": false
+            },
+            {
+              "description": "6",
+              "isCorrect": false
+            },
+            {
+              "description": "8",
+              "isCorrect": false
+            },
+            {
+              "description": "4",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "description": "Cuantos pedales de freno hidraulico tiene un automovil",
+          "options": [
+            {
+              "description": "2",
+              "isCorrect": false
+            },
+            {
+              "description": "4",
+              "isCorrect": false
+            },
+            {
+              "description": "1",
+              "isCorrect": true
+            },
+            {
+              "description": "0",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "description": "Cuantos pedales tiene un carro automatico",
+          "options": [
+            {
+              "description": "3",
+              "isCorrect": false
+            },
+            {
+              "description": "2",
+              "isCorrect": true
+            },
+            {
+              "description": "4",
+              "isCorrect": false
+            },
+            {
+              "description": "1",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "description": "Cuantos cinturones de seguridad tiene el puesto del conductor",
+          "options": [
+            {
+              "description": "2",
+              "isCorrect": false
+            },
+            {
+              "description": "0",
+              "isCorrect": false
+            },
+            {
+              "description": "1",
+              "isCorrect": true
+            },
+            {
+              "description": "4",
+              "isCorrect": false
+            }
+          ]
+        }
+
+          ]
+        },
+        {
+          "questions": [
+            {
+              "description": "Que es un sistema de encendido cop",
+              "options": [
+                {
+                  "description": "Sistema de bobina independiente por cilindro",
+                  "isCorrect": true
+                },
+                {
+                  "description": "Una bobina por pares de cilindro",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Una bobina conectada a un distribuidor",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Ninguna de las anteriores",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "description": "Un sistema de encendido DIS es",
+              "options": [
+                {
+                  "description": "Sistema de bobina independiente por cilindro",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Una bobina por pares de cilindro",
+                  "isCorrect": true
+                },
+                {
+                  "description": "Un reproductor de musica",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Ninguna de las anteriores",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "description": "Una llanta radial es",
+              "options": [
+                {
+                  "description": "Una llanta con Radios",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Un tipo de construccion",
+                  "isCorrect": true
+                },
+                {
+                  "description": "Que se conecta con el radio",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Que su radio es igual",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "description": "La chumacera es",
+              "options": [
+                {
+                  "description": "Una mentira de los mecanicos",
+                  "isCorrect": false
+                },
+                {
+                  "description": "El soporte del bomper",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Un rodamiento que funciona como soporte",
+                  "isCorrect": true
+                },
+                {
+                  "description": "La hermana del alisprucio",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "description": "La bateria de un automovil trabaja con cuantos volts",
+              "options": [
+                {
+                  "description": "6 volts",
+                  "isCorrect": false
+                },
+                {
+                  "description": "12 volts",
+                  "isCorrect": true
+                },
+                {
+                  "description": "24 volts",
+                  "isCorrect": false
+                },
+                {
+                  "description": "5 volts",
+                  "isCorrect": false
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "questions": [
+            {
+              "description": "Una configuracion de header 4-2-1, tiene como funcion",
+              "options": [
+                {
+                  "description": "Mejorar el sonido",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Mejorar la ventilacion",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Mejorar el torque",
+                  "isCorrect": true
+                },
+                {
+                  "description": "Mejorar la velocidad final",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "description": "Una configuracion de header 4-1",
+              "options": [
+                {
+                  "description": "Mejorar el sonido",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Mejorar la velocidad final",
+                  "isCorrect": true
+                },
+                {
+                  "description": "Mejorar el torque",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Mejorar la ventilacion del copiloto",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "description": "Un sistema CAI es",
+              "options": [
+                {
+                  "description": "Un lugar donde esta la policia",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Un catalizador de doble via",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Una entrada de aire frio",
+                  "isCorrect": true
+                },
+                {
+                  "description": "Un aleron",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "description": "Un motor SOHC, tiene cuantos arboles de levas",
+              "options": [
+                {
+                  "description": "4",
+                  "isCorrect": false
+                },
+                {
+                  "description": "1",
+                  "isCorrect": true
+                },
+                {
+                  "description": "2",
+                  "isCorrect": false
+                },
+                {
+                  "description": "16",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "description": "Un motor DOHC, tiene cuantos arboles de levas",
+              "options": [
+                {
+                  "description": "16",
+                  "isCorrect": false
+                },
+                {
+                  "description": "8",
+                  "isCorrect": false
+                },
+                {
+                  "description": "4",
+                  "isCorrect": false
+                },
+                {
+                  "description": "2",
+                  "isCorrect": true
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "questions": [
+            {
+              "description": "En un motor DOHC, donde estan los arboles de levas",
+              "options": [
+                {
+                  "description": "Culata",
+                  "isCorrect": true
+                },
+                {
+                  "description": "Bloque",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Escape",
+                  "isCorrect": false
+                },
+                {
+                  "description": "En el bosque",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "description": "En un motor SOHC, donde estan los arboles de levas",
+              "options": [
+                {
+                  "description": "Bloque",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Culata",
+                  "isCorrect": true
+                },
+                {
+                  "description": "Escape",
+                  "isCorrect": false
+                },
+                {
+                  "description": "En la silla del piloto",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "description": "Un motor OHV, tambien es conocido como",
+              "options": [
+                {
+                  "description": "Motor varillero",
+                  "isCorrect": true
+                },
+                {
+                  "description": "Buenos Motores",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Los indomables",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Godzilla",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "description": "Un motor de 4 tiempos debe tener una transmision de cuantas velocidades",
+              "options": [
+                {
+                  "description": "4 velocidades",
+                  "isCorrect": false
+                },
+                {
+                  "description": "8 velocidades",
+                  "isCorrect": false
+                },
+                {
+                  "description": "5 velocidades",
+                  "isCorrect": false
+                },
+                {
+                  "description": "No importa",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "description": "Un motor sobre alimentado puede ser",
+              "options": [
+                {
+                  "description": "Aspirado",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Turbo",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Supercharged",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Turbo y Supercharged",
+                  "isCorrect": true
+                }
+              ]
+            }
+
+          ]
+        },
+        {
+          "questions": [
+            {
+              "description": "En un motor de aspiracion natural podemos encontrar",
+              "options": [
+                {
+                  "description": "Bujias",
+                  "isCorrect": true
+                },
+                {
+                  "description": "turbo",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Supercharger",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Intercooler",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "description": "Un sistema DVVT, se encuentra ubicado en",
+              "options": [
+                {
+                  "description": "Admision",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Admision y escape",
+                  "isCorrect": true
+                },
+                {
+                  "description": "Escape",
+                  "isCorrect": false
+                },
+                {
+                  "description": "En el tablero",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "description": "La carga de un alternador para un vehiculo de 12 volt es",
+              "options": [
+                {
+                  "description": "110volts",
+                  "isCorrect": false
+                },
+                {
+                  "description": "13.6 - 14.8 volts",
+                  "isCorrect": true
+                },
+                {
+                  "description": "10 - 12 volts",
+                  "isCorrect": false
+                },
+                {
+                  "description": "8 volts",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "description": "Random Misfire es",
+              "options": [
+                {
+                  "description": "Fallo en un cilindro",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Fallo en la correa dentada",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Fallo en el alternador",
+                  "isCorrect": false
+                },
+                {
+                  "description": "Fallo multiple de encendido",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "description": "Cuantos ciguenales tiene un motor en W ",
+              "options": [
+                {
+                  "description": "3",
+                  "isCorrect": false
+                },
+                {
+                  "description": "6",
+                  "isCorrect": false
+                },
+                {
+                  "description": "2",
+                  "isCorrect": false
+                },
+                {
+                  "description": "1",
+                  "isCorrect": true
+                }
+              ]
+            }
+
+      ]
+    }
+  ]
+}
